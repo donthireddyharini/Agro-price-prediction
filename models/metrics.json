@@ -1,0 +1,1 @@
+{"Linear Regression": {"MAE": 119.15, "RMSE": 249.96, "R2": 0.9967}, "Ridge Regression": {"MAE": 119.15, "RMSE": 249.96, "R2": 0.9967}, "Random Forest": {"MAE": 85.87, "RMSE": 215.42, "R2": 0.9976}, "Gradient Boosting": {"MAE": 108.91, "RMSE": 234.93, "R2": 0.9971}, "best_model": "Random Forest"}

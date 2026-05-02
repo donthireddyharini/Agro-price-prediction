@@ -1,0 +1,50 @@
+{
+  "z_test": {
+    "name": "One-Sample Z-Test",
+    "h0": "Mean Modal_Price = 2,000",
+    "h1": "Mean Modal_Price != 2,000",
+    "formula": "Z = (x - mu) / (sigma / sqrt(n))",
+    "sample_mean": 4003.83,
+    "mu0": 2000,
+    "std": 4729.34,
+    "n": 5947,
+    "statistic": 32.6746,
+    "p_value": 0.0,
+    "alpha": 0.05,
+    "decision": "Reject H0",
+    "interpretation": "Sample mean is 4,003.83. The Z-statistic of 32.67 indicates a significant difference from the benchmark."
+  },
+  "t_test": {
+    "name": "One-Sample T-Test",
+    "h0": "Mean Modal_Price = 2,000",
+    "h1": "Mean Modal_Price != 2,000",
+    "formula": "t = (x - mu) / (s / sqrt(n))",
+    "sample_mean": 4003.83,
+    "mu0": 2000,
+    "df": 5946,
+    "statistic": 32.6746,
+    "p_value": 0.0,
+    "alpha": 0.05,
+    "decision": "Reject H0",
+    "interpretation": "t = 32.67. The T-test confirms the Z-test results for this large sample."
+  },
+  "linear_regression": {
+    "name": "Linear Regression Analysis",
+    "independent_var": "Min_Price",
+    "dependent_var": "Modal_Price",
+    "formula": "y = 1.0566x + 204.55",
+    "r2_score": 0.9609,
+    "mae": 403.06,
+    "slope": 1.0566,
+    "intercept": 204.55,
+    "interpretation": "R-squared of 0.9609 shows that Min_Price explains 96.1% of the variance in Modal_Price."
+  },
+  "_meta": {
+    "dataset_n": 5947,
+    "alpha": 0.05,
+    "mu0": 2000,
+    "dataset_mean": 4003.83,
+    "dataset_std": 4729.34,
+    "dataset_median": 2600.0
+  }
+}
