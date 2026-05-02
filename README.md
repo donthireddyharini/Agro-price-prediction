@@ -54,7 +54,7 @@ python app.py
 
 ### Step 4 — Open in browser
 ```
-http://localhost:5000
+agropriceprediction.vercel.app
 ```
 
 ---
