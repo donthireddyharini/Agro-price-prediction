@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌾 CA — Agro Agriculture Price Predictor
 
 ML-powered web application for predicting agro modal prices across Indian agricultural markets.
@@ -101,3 +102,6 @@ gunicorn -w 4 -b 0.0.0.0:5000 app:app
 For cloud deployment (Render, Railway, Heroku):
 - Add a `Procfile`: `web: gunicorn app:app`
 - Set `PORT` environment variable
+=======
+# Agro-price-prediction
+>>>>>>> 0230cc8177de238897a4c40ea2590fd1ce13d4b0
